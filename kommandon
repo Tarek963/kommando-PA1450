@@ -1,17 +1,17 @@
-1.	Git init-kommandot skapar nytt Git-arkiv, kan användas för att konvertera ett befintligt och börjar spåra en befintlig katalog, 
+1. Git init-kommandot skapar nytt Git-arkiv, kan användas för att konvertera ett befintligt och börjar spåra en befintlig katalog, 
 adderar dold undermapp i den befintliga katalogen som innehåller den interna datastrukturen som krävs för versionskontroll.	
 
-2.	Git clone kopierar ett projekt som redan finns på distans. Clone innehåller alla projektets filer, historik och grenar.
+2. Git clone kopierar ett projekt som redan finns på distans. Clone innehåller alla projektets filer, historik och grenar.
 
-3.	Git-status visar tillståndet för arbetskatalogen, låter oss att se ändringar som inte spårade, modifierade eller iscensatta. 
+3. Git-status visar tillståndet för arbetskatalogen, låter oss att se ändringar som inte spårade, modifierade eller iscensatta. 
 Statusutgången visar dig inte information om den engagerade projekthistoriken.
 
-4.	Git branch visar de grenar som arbetas lokalt, låter oss att skapa, lista, byta namn på och radera grenar. 
+4. Git branch visar de grenar som arbetas lokalt, låter oss att skapa, lista, byta namn på och radera grenar. 
 Det låter oss inte växla mellan grenar eller sätta tillbaka en gaffelhistoria igen.
 
-5.	Git push uppdaterar fjärrförvaret med alla åtaganden som görs lokalt till en gren. Det är motsvarigheten att Git hämta, 
+5. Git push uppdaterar fjärrförvaret med alla åtaganden som görs lokalt till en gren. Det är motsvarigheten att Git hämta, 
 men medan hämta import förbinder sig till lokala filialer, driver exporten åtaganden till avlägsna filialer.
 
-6.	Git pull används för att hämta och ladda ner innehåll från ett fjärrlager och uppdatera omedelbart det lokala arkivet 
+6. Git pull används för att hämta och ladda ner innehåll från ett fjärrlager och uppdatera omedelbart det lokala arkivet 
 för att matcha det innehållet. Utvecklare använder det här kommandot om en lagkamrat har gjort åtaganden till en filial 
 på en fjärrkontroll och de skulle vilja återspegla dessa förändringar i sin lokala miljö.
